@@ -1,0 +1,8 @@
+md5sum witness_node
+08446e61067fc40062621cf99833787e  witness_node
+
+./witness_node --version
+Version: v_0_7_16
+SHA: 726a9df4c8c996e625caeb63669d75cfbcafce90
+Timestamp: 55 hours ago
+
