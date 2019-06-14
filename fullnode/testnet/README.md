@@ -1,32 +1,34 @@
-# 1. 搭建同步区块节点
+[中文](https://github.com/chandlerette/cocos-bcx-node-bin/edit/master/fullnode/testnet/README_cn.md "中文")
 
-## 1.1.	安装环境要求
+# 1. Set up block syncing node
 
-* 软件要求：Ubuntu 16.04
-* 硬件要求：CPU：4核以及上，RAM：16G及以上，硬盘SSD200G以上。
-* 运行环境依赖： libbz2-dev libdb++-dev libdb-dev libssl-dev openssl libreadline-dev libtool libcurl4-openssl-dev libboost-all-dev
+## 1.1.	Installation environment requirements
 
-## 1.2.	安装编译相关的库
+* Software: Ubuntu 16.04
+* Hardware: CPU: 4 cores or above, RAM: 16G or above, hard disk SSD200G or above.
+* Runtime environment: libbz2-dev libdb++-dev libdb-dev libssl-dev openssl libreadline-dev libtool libcurl4-openssl-dev libboost-all-dev
+
+## 1.2.	Install compilation related libraries
 
 * sudo apt-get update
 * sudo apt-get install autoconf cmake git vim libbz2-dev libdb++-dev libdb-dev libssl-dev openssl libreadline-dev libtool libcurl4-openssl-dev libboost-all-dev
 
-## 1.3.	获取可执行文件
-* 直接通过项目方获取或者下载项目方发布的节点文件witness_node以及命令行终端文件cli_wallet. [下载地址](https://github.com/Cocos-BCX/cocos-bcx-node-bin.git)
-* 获取创世区块配置文件[genesis.json](https://github.com/Cocos-BCX/cocos-bcx-node-bin.git)
+## 1.3.	Get the executables
+* Get or download the node file witness_node and the command line terminal file cli_wallet released by the project directly. [Download address](https://github.com/Cocos-BCX/cocos-bcx-node-bin.git)
+* •	Get the configuration file of genesis block[genesis.json](https://github.com/Cocos-BCX/cocos-bcx-node-bin.git)
 
-## 1.4. config.ini配置
-* 部分参数修改说明如下:
+## 1.4. config.ini
+* •	Some parameters are modified as follows:
 
-  * p2p-endpoint: p2p node endpoint, 格式: 0.0.0.0:port, 比如: p2p-endpoint = 0.0.0.0:8060
+  * p2p-endpoint: p2p node endpoint, format: 0.0.0.0:port, for example: p2p-endpoint = 0.0.0.0:8060
 
-  * seed-nodes: 设置成出块节点的p2p-endpoint, 格式: ["ip:port"], 比如: seed-nodes = ["39.97.102.65:8060", "39.97.109.131:8060",  "39.105.70.144:8060", "39.97.110.222:8060"]
+  * seed-nodes: set to p2p-endpoint of the block node, format: ["ip:port"], for example: seed-nodes = ["39.97.102.65:8060", "39.97.109.131:8060", "39.105.70.144:8060", "39.97.110.222:8060"]
 
-  * rpc-endpoint: websocket rpc, 需要配置, 格式：0.0.0.0:port, 比如: rpc-endpoint = 0.0.0.0:8049
+  * o	rpc-endpoint: websocket rpc, needs to be configured, format: 0.0.0.0:port, for example: rpc-endpoint = 0.0.0.0:8049
 
-  * enable-stale-production: 设置为false, 不出块
+  * enable-stale-pket to false to generate no block
 
-* 示例:
+* Example:
 ``` json
         # Endpoint for P2P node to listen on
         # p2p-endpoint =
@@ -85,10 +87,10 @@
 ```
 
 
-## 1.5. 节点启动
-* 执行: ./witness_node --genesis-json genesis.json, 看到chain-id, ctrl+c终止。
+## 1.5. Node start
+* Execute: ./witness_node --genesis-json genesis.json to see the chain-id, press ctrl+c to terminate.
 
-* 修改config.ini配置, 重新执行, 看到如下的log, 说明同步区块节点成功。
+* Change the config.ini to re-execute, after which you will see the following log, indicating that the block nodes syncing is successful.
 
 ``` json
         2128478ms th_a       witness.cpp:84                plugin_initialize    ] witness plugin:  plugin_initialize() begin
@@ -115,6 +117,6 @@
         2144002ms th_a       application.cpp:530           handle_block         ] Got block: #1997 time: 2019-05-30T08:35:44 latency: 2 ms from: cocos-witness-1  irreversible: 1993 (-4)
 ```
 
-## 附:
-* 搭建普通出块节点也可以直接执行脚本: [setup_node.sh](https://github.com/Cocos-BCX/cocos-bcx-node-bin.git)
+## Note:
+* You can also execute the script directly by setting up a regular block node: [setup_node.sh](https://github.com/Cocos-BCX/cocos-bcx-node-bin.git)
 
