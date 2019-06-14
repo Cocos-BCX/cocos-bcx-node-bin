@@ -3,7 +3,6 @@
 # 1. RPC Command Line Wallet Terminal
     Note: The prerequisite is that the blockchain has been correctly built without any error after testing, and the RPC address of the node is obtained.
 
-## 1.1.	开启命令行钱包
 ## 1.1.	Open the command line wallet
 
 * ./cli_wallet --chain-id Newly generated chain id -s ws://127.0.0.1:8049 -r 127.0.0.1:8099
