@@ -1,15 +1,17 @@
-# 1. RPC命令行钱包终端使用
-    注：前置条件是链已正确搭建，测试无误，且获取到节点的RPC地址。
+[中文](https://github.com/chandlerette/cocos-bcx-node-bin/edit/master/cli/testnet/README_cn.md "中文")
+
+# 1. RPC Command Line Wallet Terminal
+    Note: The prerequisite is that the blockchain has been correctly built without any error after testing, and the RPC address of the node is obtained.
 
 ## 1.1.	开启命令行钱包
+## 1.1.	Open the command line wallet
 
-* ./cli_wallet --chain-id 新生成的链id -s ws://127.0.0.1:8049  -r  127.0.0.1:8099
+* ./cli_wallet --chain-id Newly generated chain id -s ws://127.0.0.1:8049 -r 127.0.0.1:8099
     
-  * 其中链ID通过查看节点运行日志获取，-s参数后的地址为节点的RPC地址，-r参数后的地址为命令行钱包的RPC监听地址。
+  * The chain ID can be found by viewing the running log of the node. The address after the -s parameter is the RPC address of the node, and the address after the -r parameter is the RPC listening address of the command line wallet.
 
-## 1.2.	操作命令行钱包
+## 1.2.	Operating command line wallet
 
-* set_password xxxx 设置钱包密码
+* set_password xxxx Set the password for wallet
     
-* unlock xxxx 解锁钱包
-
+* unlock xxxx Unlock the wallet
