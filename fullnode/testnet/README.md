@@ -1,4 +1,4 @@
-[中文](https://github.com/chandlerette/cocos-bcx-node-bin/edit/master/fullnode/testnet/README_cn.md "中文")
+[中文](https://github.com/Cocos-BCX/cocos-bcx-node-bin/tree/master/fullnode/testnet/README_cn.md "中文")
 
 # 1. Set up block syncing node
 
