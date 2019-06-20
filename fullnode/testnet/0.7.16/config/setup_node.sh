@@ -1,36 +1,27 @@
-##########################################################################
-##########################################################################
+#!/bin/bash
 
-        sudo apt-get update
+# genesis.json witness_node config.ini 都在当前路径下
+# genesis.json 创世区块文件
+# config.ini: witness_node 启动的加载配置
 
-        sudo apt-get install autoconf cmake git vim libbz2-dev libdb++-dev libdb-dev libssl-dev openssl libreadline-dev libtool libcurl4-openssl-dev libboost-all-dev -y
+echo "=================== run start ==================="
 
-        nohup ./witness_node --genesis-json genesis.json > chainID.log 2>&1 &
+nohup ./witness_node --genesis-json genesis.json >> witness_node.log 2>&1 &
 
-        sleep 1
+sleep 5
 
-        ps -ef | grep witness_node | grep -v grep | cut -c 9-15 | xargs kill -9
+# 如果当前服务器上运行多个witness_node, 使用pkill 会全部kill掉
+# kill -15 pid   ## 不要使用 kill -9 会产生脏数据
+# ps -ef | grep witness_node | grep -v grep | cut -c 9-15 | xargs kill -15
+pkill witness_node
 
-        sed -i 's/# p2p-endpoint = /p2p-endpoint = 0.0.0.0:8060/g' witness_node_data_dir/config.ini
+cp config.ini ./witness_node_data_dir/config.ini
 
-        sed -i 's/# seed-nodes = /seed-nodes = ["39.97.102.65:8060", "39.97.109.131:8060",  "39.105.70.144:8060", "39.97.110.222:8060"]/g' witness_node_data_dir/config.ini
+nohup ./witness_node --genesis-json genesis.json >> witness_node.log 2>&1 &
 
-        sed -i 's/# rpc-endpoint = /rpc-endpoint = 0.0.0.0:8049/g' witness_node_data_dir/config.ini
+sleep 3
 
-        nohup ./witness_node > node.log 2>&1 &
+#echo "save chain id to chainID.log"
+grep -n "Chain ID is" witness_node.log >> chainID.log
 
-
-
-
-
-
-
-
-
-   printf "\n\n${bldred}\t                                                                 \n"
-   printf '\t   ______                                              ____     ______   _  __\n'
-   printf "\t  / ____/  ____     _____   ____     _____            / __ )   / ____/  | |/ /\n"
-   printf "\t / /      / __ \   / ___/  / __ \   / ___/  ______   / __  |  / /       |   / \n"
-   printf "\t/ /___   / /_/ /  / /__   / /_/ /  (__  )  /_____/  / /_/ /  / /___    /   |  \n"
-   printf "\t\____/   \____/   \___/   \____/  /____/           /_____/   \____/   /_/|_|  \n"
-   printf "\t                                                                              \n${txtrst}"
+echo "=================== run done ==================="
