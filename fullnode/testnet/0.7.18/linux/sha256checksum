@@ -1,0 +1,7 @@
+root@957baa127218:/cocos-dev/Cocos0718# ./witness_node --version
+Version: v_0_7_18
+SHA: 545b1e6f3e42cd883994f17f3f97631bcb65634a
+Timestamp: 7 days ago
+root@957baa127218:/cocos-dev/Cocos0718# md5sum witness_node
+811306f6916711c3c703bd288a4bb96d  witness_node
+

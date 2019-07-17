@@ -1,0 +1,8 @@
+root@957baa127218:/cocos-dev/Cocos0718# ./cli_wallet --version
+Version: v_0_7_18
+SHA: 545b1e6f3e42cd883994f17f3f97631bcb65634a
+Timestamp: 7 days ago
+
+root@957baa127218:/cocos-dev/Cocos0718# md5sum cli_wallet 
+1d3b22d141234944a23ab2b926f9fbf6  cli_wallet
+

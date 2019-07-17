@@ -1,0 +1,451 @@
+{
+  "initial_timestamp": "2019-06-03T08:01:20",
+  "max_core_supply": "1000000000000000000",
+  "initial_parameters": {
+    "current_fees": {
+      "parameters": [[
+          0,{
+            "fee": 20000,
+            "price_per_kbyte": 10000
+          }
+        ],[
+          1,{
+            "fee": 5000
+          }
+        ],[
+          2,{
+            "fee": 0
+          }
+        ],[
+          3,{
+            "fee": 20000
+          }
+        ],[
+          4,{}
+        ],[
+          5,{
+            "basic_fee": 5000,
+            "premium_fee": 2000000,
+            "price_per_kbyte": 1000
+          }
+        ],[
+          6,{
+            "fee": 20000,
+            "price_per_kbyte": 1000
+          }
+        ],[
+          7,{
+            "membership_annual_fee": 2000000,
+            "membership_lifetime_fee": 10000000
+          }
+        ],[
+          8,{
+            "symbol3": "500000000",
+            "symbol4": "300000000",
+            "long_symbol": 5000000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          9,{
+            "fee": 500000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          10,{
+            "fee": 20000,
+            "price_per_kbyte": 1000
+          }
+        ],[
+          11,{
+            "fee": 500000
+          }
+        ],[
+          12,{
+            "fee": 500000
+          }
+        ],[
+          13,{
+            "fee": 20000,
+            "price_per_kbyte": 1000
+          }
+        ],[
+          14,{
+            "fee": 20000
+          }
+        ],[
+          15,{
+            "fee": 1000
+          }
+        ],[
+          16,{
+            "fee": 100000
+          }
+        ],[
+          17,{
+            "fee": 500000
+          }
+        ],[
+          18,{
+            "fee": 1000
+          }
+        ],[
+          19,{
+            "fee": 5000000
+          }
+        ],[
+          20,{
+            "fee": 20000
+          }
+        ],[
+          21,{
+            "fee": 20000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          22,{
+            "fee": 20000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          23,{
+            "fee": 1000
+          }
+        ],[
+          24,{
+            "fee": 1000
+          }
+        ],[
+          25,{
+            "fee": 1000
+          }
+        ],[
+          26,{
+            "fee": 20000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          27,{
+            "fee": 0
+          }
+        ],[
+          28,{
+            "fee": 5000000
+          }
+        ],[
+          29,{
+            "fee": 20000
+          }
+        ],[
+          30,{
+            "fee": 1000
+          }
+        ],[
+          31,{
+            "fee": 1000
+          }
+        ],[
+          32,{
+            "fee": 20000
+          }
+        ],[
+          33,{
+            "fee": 5000000
+          }
+        ],[
+          34,{}
+        ],[
+          35,{
+            "fee": 5000,
+            "price_per_output": 5000
+          }
+        ],[
+          36,{
+            "fee": 5000,
+            "price_per_output": 5000
+          }
+        ],[
+          37,{
+            "fee": 5000
+          }
+        ],[
+          38,{}
+        ],[
+          39,{
+            "fee": 20000
+          }
+        ],[
+          40,{}
+        ],[
+          41,{
+            "fee": 20000
+          }
+        ],[
+          42,{}
+        ],[
+          43,{
+            "fee": 20000,
+            "price_per_kbyte": 10000
+          }
+        ],[
+          44,{
+            "fee": 20000,
+            "price_per_kbyte": 10000,
+            "price_per_millisecond": 10000
+          }
+        ],[
+          45,{
+            "fee": 20000,
+            "price_per_kbyte": 10000
+          }
+        ],[
+          46,{
+            "fee": 1000
+          }
+        ],[
+          47,{
+            "fee": 1000
+          }
+        ],[
+          48,{
+            "fee": 1000
+          }
+        ],[
+          49,{
+            "fee": 1000
+          }
+        ],[
+          50,{
+            "fee": 1000
+          }
+        ],[
+          51,{
+            "fee": 1000
+          }
+        ],[
+          52,{
+            "fee": 1000
+          }
+        ],[
+          53,{
+            "fee": 0
+          }
+        ],[
+          54,{
+            "fee": 0
+          }
+        ],[
+          55,{
+            "fee": 1000,
+            "price_per_kbyte": 10000
+          }
+        ],[
+          56,{
+            "fee": 1000,
+            "price_per_related_account": 1000
+          }
+        ],[
+          57,{
+            "fee": 1000,
+            "price_per_kbyte": 10000
+          }
+        ],[
+          58,{
+            "fee": 1000
+          }
+        ],[
+          59,{
+            "fee": 20000,
+            "price_per_kbyte": 10000
+          }
+        ],[
+          60,{
+            "fee": 20000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          61,{
+            "fee": 20000
+          }
+        ],[
+          62,{
+            "fee": 20000
+          }
+        ]
+      ],
+      "scale": 10000,
+      "maximun_handling_fee": 100000
+    },
+    "block_interval": 2,
+    "maintenance_interval": 3600,
+    "maintenance_skip_slots": 3,
+    "committee_proposal_review_period": 3600,
+    "maximum_transaction_size": 2048,
+    "maximum_block_size": 2000000,
+    "maximum_time_until_expiration": 86400,
+    "maximum_proposal_lifetime": 2419200,
+    "maximum_asset_feed_publishers": 10,
+    "maximum_witness_count": 1001,
+    "maximum_committee_count": 1001,
+    "maximum_authority_membership": 10,
+    "committee_percent_of_network": 2000,
+    "network_percent_of_fee": 2000,
+    "lifetime_referrer_percent_of_fee": 3000,
+    "cashback_vesting_period_seconds": 31536000,
+    "cashback_vesting_threshold": 10000000,
+    "count_non_member_votes": true,
+    "allow_non_member_whitelists": false,
+    "witness_pay_per_block": 1000000,
+    "worker_budget_per_day": "50000000000",
+    "max_predicate_opcode": 1,
+    "fee_liquidation_threshold": 10000000,
+    "accounts_per_fee_scale": 1000,
+    "account_fee_scale_bitshifts": 4,
+    "max_authority_depth": 2,
+    "maximum_run_time_ratio": 5000,
+    "voting_adoption_ratio": 7500,
+    "maximum_nh_asset_order_expiration": 1209600,
+    "assigned_task_life_cycle": 300,
+    "crontab_suspend_threshold": 3,
+    "crontab_suspend_expiration": 2592000,
+    "extensions": []
+  },
+  "initial_accounts": [{
+      "name": "init0",
+      "owner_key": "COCOS8hxjGaAwkNHewgQqg6ERLA7L4J6wkzuhhLRVbKKuJZUYM3dfuS",
+      "active_key": "COCOS8hxjGaAwkNHewgQqg6ERLA7L4J6wkzuhhLRVbKKuJZUYM3dfuS",
+      "is_lifetime_member": true
+    },{
+      "name": "init1",
+      "owner_key": "COCOS5TrJztVAY5F9aWDw5KtDHfdrffQn7F3sjgbL8YyssiKhVCLNf7",
+      "active_key": "COCOS5TrJztVAY5F9aWDw5KtDHfdrffQn7F3sjgbL8YyssiKhVCLNf7",
+      "is_lifetime_member": true
+    },{
+      "name": "init2",
+      "owner_key": "COCOS8hjpaYLn6RxfQEg61en7fEMy9beYsaWZ4Vm6jnqujQjJ5PQSGo",
+      "active_key": "COCOS8hjpaYLn6RxfQEg61en7fEMy9beYsaWZ4Vm6jnqujQjJ5PQSGo",
+      "is_lifetime_member": true
+    },{
+      "name": "init3",
+      "owner_key": "COCOS5dLtguN6A12QBuV3dmh3YCLg3adkKmY3m2gV7hm9Cw9jtyGd3Y",
+      "active_key": "COCOS5dLtguN6A12QBuV3dmh3YCLg3adkKmY3m2gV7hm9Cw9jtyGd3Y",
+      "is_lifetime_member": true
+    },{
+      "name": "init4",
+      "owner_key": "COCOS7nEYNaXP9P84LQA2kHArvDBTfQ8RizhYd8em3T5zfXBZj29h4i",
+      "active_key": "COCOS7nEYNaXP9P84LQA2kHArvDBTfQ8RizhYd8em3T5zfXBZj29h4i",
+      "is_lifetime_member": true
+    },{
+      "name": "init5",
+      "owner_key": "COCOS8LQSvCgZvwW44iJuCBkVmpR3uUh6J2VFkBJScA3vJq3gXTLCLr",
+      "active_key": "COCOS8LQSvCgZvwW44iJuCBkVmpR3uUh6J2VFkBJScA3vJq3gXTLCLr",
+      "is_lifetime_member": true
+    },{
+      "name": "init6",
+      "owner_key": "COCOS6Y5gjJG6YageUeVeoHMMLpESXFi3LdhHWB7dZsKfWQ8giEWN1z",
+      "active_key": "COCOS6Y5gjJG6YageUeVeoHMMLpESXFi3LdhHWB7dZsKfWQ8giEWN1z",
+      "is_lifetime_member": true
+    },{
+      "name": "init7",
+      "owner_key": "COCOS8aJKupmQ4XjWyAbsn58wLb2oLHfEDGMFtd7dDbFtxFpBzMGUda",
+      "active_key": "COCOS8aJKupmQ4XjWyAbsn58wLb2oLHfEDGMFtd7dDbFtxFpBzMGUda",
+      "is_lifetime_member": true
+    },{
+      "name": "init8",
+      "owner_key": "COCOS5fW5NuvGjaVQTGwcJLwogxheq2KMjm3y5ccAShJqQnB3gNkGbL",
+      "active_key": "COCOS5fW5NuvGjaVQTGwcJLwogxheq2KMjm3y5ccAShJqQnB3gNkGbL",
+      "is_lifetime_member": true
+    },{
+      "name": "init9",
+      "owner_key": "COCOS5rYpiyVtxuX5PDbxHrPEsjVd6Ucz5fWJTdhvAxoPtZGSxvkE82",
+      "active_key": "COCOS5rYpiyVtxuX5PDbxHrPEsjVd6Ucz5fWJTdhvAxoPtZGSxvkE82",
+      "is_lifetime_member": true
+    },{
+      "name": "init10",
+      "owner_key": "COCOS6e4j3DaruANMUNsK8PMit8Sp3kA1Dw3EhJb3mpCHeZb7nTgUnP",
+      "active_key": "COCOS6e4j3DaruANMUNsK8PMit8Sp3kA1Dw3EhJb3mpCHeZb7nTgUnP",
+      "is_lifetime_member": true
+    },{
+      "name": "nicotest",
+      "owner_key": "COCOS56a5dTnfGpuPoWACnYj65dahcXMpTrNQkV3hHWCFkLxMF5mXpx",
+      "active_key": "COCOS56a5dTnfGpuPoWACnYj65dahcXMpTrNQkV3hHWCFkLxMF5mXpx",
+      "is_lifetime_member": false
+    }
+  ],
+  "initial_assets": [],
+  "initial_balances": [{
+      "owner": "COCOS48G3hk62q4rykYTTaSFiMLEFrAGWwNdUk",
+      "asset_symbol": "COCOS",
+      "amount": "500000000000000000"
+    }
+  ],
+  "initial_vesting_balances": [],
+  "initial_active_witnesses": 11,
+  "initial_witness_candidates": [{
+      "owner_name": "init0",
+      "block_signing_key": "COCOS8hxjGaAwkNHewgQqg6ERLA7L4J6wkzuhhLRVbKKuJZUYM3dfuS"
+    },{
+      "owner_name": "init1",
+      "block_signing_key": "COCOS5TrJztVAY5F9aWDw5KtDHfdrffQn7F3sjgbL8YyssiKhVCLNf7"
+    },{
+      "owner_name": "init2",
+      "block_signing_key": "COCOS8hjpaYLn6RxfQEg61en7fEMy9beYsaWZ4Vm6jnqujQjJ5PQSGo"
+    },{
+      "owner_name": "init3",
+      "block_signing_key": "COCOS5dLtguN6A12QBuV3dmh3YCLg3adkKmY3m2gV7hm9Cw9jtyGd3Y"
+    },{
+      "owner_name": "init4",
+      "block_signing_key": "COCOS7nEYNaXP9P84LQA2kHArvDBTfQ8RizhYd8em3T5zfXBZj29h4i"
+    },{
+      "owner_name": "init5",
+      "block_signing_key": "COCOS8LQSvCgZvwW44iJuCBkVmpR3uUh6J2VFkBJScA3vJq3gXTLCLr"
+    },{
+      "owner_name": "init6",
+      "block_signing_key": "COCOS6Y5gjJG6YageUeVeoHMMLpESXFi3LdhHWB7dZsKfWQ8giEWN1z"
+    },{
+      "owner_name": "init7",
+      "block_signing_key": "COCOS8aJKupmQ4XjWyAbsn58wLb2oLHfEDGMFtd7dDbFtxFpBzMGUda"
+    },{
+      "owner_name": "init8",
+      "block_signing_key": "COCOS5fW5NuvGjaVQTGwcJLwogxheq2KMjm3y5ccAShJqQnB3gNkGbL"
+    },{
+      "owner_name": "init9",
+      "block_signing_key": "COCOS5rYpiyVtxuX5PDbxHrPEsjVd6Ucz5fWJTdhvAxoPtZGSxvkE82"
+    },{
+      "owner_name": "init10",
+      "block_signing_key": "COCOS6e4j3DaruANMUNsK8PMit8Sp3kA1Dw3EhJb3mpCHeZb7nTgUnP"
+    }
+  ],
+  "initial_committee_candidates": [{
+      "owner_name": "init0"
+    },{
+      "owner_name": "init1"
+    },{
+      "owner_name": "init2"
+    },{
+      "owner_name": "init3"
+    },{
+      "owner_name": "init4"
+    },{
+      "owner_name": "init5"
+    },{
+      "owner_name": "init6"
+    },{
+      "owner_name": "init7"
+    },{
+      "owner_name": "init8"
+    },{
+      "owner_name": "init9"
+    },{
+      "owner_name": "init10"
+    }
+  ],
+  "initial_worker_candidates": [],
+  "initial_contract_base": "local baseENV={ cjson={decode=cjson.decode,encode=cjson.encode},date=os.date,import_contract=import_contract,get_account_contract_data=get_account_contract_data,                             assert=assert, next=next, pairs=pairs, pcall=pcall, print=print, select=select, tonumber=tonumber, tostring=tostring, type=type,format_vector_with_table=format_vector_with_table , unpack=unpack, _VERSION=_VERSION, xpcall=xpcall, string={ byte=string.byte, char=string.char, find=string.find,                            format=string.format, gmatch=string.gmatch, gsub=string.gsub, len=string.len, lower=string.lower,  match=string.match, rep=string.rep,                            reverse=string.reverse, sub=string.sub, upper=string.upper }, table={ insert=table.insert, maxn=table.maxn, remove=table.remove, sort=table.sort,                            concat=table.concat }, math={ abs=math.abs, acos=math.acos, asin=math.asin, atan=math.atan, atan2=math.atan2, ceil=math.ceil, cos=math.cos,                            cosh=math.cosh, deg=math.deg, exp=math.exp, floor=math.floor, fmod=math.fmod, frexp=math.frexp, huge=math.huge,  ldexp=math.ldexp, log=math.log,                            log10=math.log10, max=math.max, min=math.min, modf=math.modf, pi=math.pi, pow=math.pow, rad=math.rad,sin=math.sin, sinh=math.sinh, sqrt=math.sqrt,                            tan=math.tan, tanh=math.tanh }  } return baseENV",
+  "initial_chain_id": "401d46c4f994b18103febbd72c32a2e6b564f9fcb52f9e7250901f9dca73d087",
+  "immutable_parameters": {
+    "min_committee_member_count": 11,
+    "min_witness_count": 11,
+    "num_special_accounts": 0,
+    "num_special_assets": 0
+  }
+}
