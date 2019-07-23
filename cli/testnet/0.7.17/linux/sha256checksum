@@ -1,0 +1,8 @@
+md5sum cli_wallet 
+15399b254eb03699ab26fb147abf1966  cli_wallet
+
+./cli_wallet --version
+Version: v0.7.17
+SHA: 74f595b9d40c2840f4f805aa25c174a0c799016a
+Timestamp: 40 days ago
+
