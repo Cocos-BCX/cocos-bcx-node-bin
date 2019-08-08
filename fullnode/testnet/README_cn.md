@@ -1,3 +1,5 @@
+[English](https://github.com/Cocos-BCX/cocos-bcx-node-bin/tree/master/fullnode/testnet/README.md "English")
+
 # 1. 搭建同步区块节点
 
 ## 1.1.	安装环境要求
