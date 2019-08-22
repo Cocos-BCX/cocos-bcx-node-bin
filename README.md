@@ -1,12 +1,14 @@
-# 概述
+[中文](https://github.com/Cocos-BCX/cocos-bcx-node-bin/blob/blob/master/README_cn.md "中文")
 
-节点和钱包客户端二进制可执行文件。
+# Overview
 
-# 目录结构说明
-* cli: cli_wallet钱包客户端.
-* fullnode：包括: witness_node见证人节点可执行文件, 节点启动需要的配置: genesis.json, config.ini以及初次启动节点的脚本。
+Binary executables for node and wallet client.
 
-# 非出块节点部署
-非出块节点也称为数据同步节点，不具有出块功能。
+# Directory
+* cli: cli_wallet.
+* fullnode：it includes witness_node executable file; Configuration required for node start: genesis.json, config.ini and the script to start the node for the first time.
 
-[节点环境部署参考文档](https://cn-dev.cocosbcx.io/docs/21-witness_node)
+# Deployment of non-block generating node
+A non-block generating node is also called a block syncing node, which cannot generate blocks.
+
+[Node environment deployment reference document](https://dev.cocosbcx.io/docs/21-witness_node)
