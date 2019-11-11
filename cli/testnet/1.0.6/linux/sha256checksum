@@ -1,0 +1,6 @@
+csquan@ubuntu:~/cocos-bcx-node-bin/cli/testnet/1.0.6/linux$ ./cli_wallet --version
+Version: v1.0.6-1-ga3507ac
+SHA: a3507acc7e67634958383c867305208662609d84
+Timestamp: 5 days ago
+csquan@ubuntu:~/cocos-bcx-node-bin/cli/testnet/1.0.6/linux$ md5sum ./cli_wallet
+81e8ca8b0ac505c943fcc1919c71cd29  ./cli_wallet
