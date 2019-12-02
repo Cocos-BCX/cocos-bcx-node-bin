@@ -1,1 +1,1 @@
-This is the mainnet
+config and genesis file of mainnet
