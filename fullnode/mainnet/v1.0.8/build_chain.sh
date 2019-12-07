@@ -16,7 +16,7 @@ export PATH=$PATH:$USR_LOCAL_BIN
 # function
 #
 _SYS_MIN_CPU=4          # 4 cpu
-_SYS_REC_CPU=8          # 8 cpu
+_SYS_REC_CPU=4          # 4 cpu
 _SYS_MIN_MEM=8          # 8G ram
 _SYS_REC_MEM=16         # 16G ram
 _SYS_MIN_STO=100        # 100G storage
