@@ -145,4 +145,4 @@ $CURL "https://raw.githubusercontent.com/Cocos-BCX/cocos-bcx-node-bin/master/ful
 docker run -itd --restart=always --name witness -v $PREFIX/config:/root/witness/config \
 	-v $PREFIX/COCOS_BCX_DATABASE:/root/witness/COCOS_BCX_DATABASE \
 	-v $PREFIX/logs:/root/witness/logs -p 8049:8049 -p 8050:8050 \
-	 registry.cn-beijing.aliyuncs.com/qkyy/witness:$VERSION
+	 registry.cn-beijing.aliyuncs.com/qkyy/witness
