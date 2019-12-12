@@ -10,16 +10,17 @@ set -ue
 PREFIX=${PREFIX:="/mnt/witness"}
 VERSION=${VERSION:="v1.0.8"}
 CURL="curl -fsSL"
+PYTHON=${PYTHON:=python}
 USR_LOCAL_BIN=${USR_LOCAL_BIN:=/usr/local/bin}
 export PATH=$PATH:$USR_LOCAL_BIN
 #
 # function
 #
-_SYS_MIN_CPU=2          # 4 cpu
+_SYS_MIN_CPU=2          # 2 cpu
 _SYS_REC_CPU=4          # 4 cpu
 _SYS_MIN_MEM=8          # 8G ram
 _SYS_REC_MEM=16         # 16G ram
-_SYS_MIN_STO=200        # 100G storage
+_SYS_MIN_STO=200        # 200G storage
 _SYS_REC_STO=1000       # 1T storage
 
 print_requirements() {
@@ -49,12 +50,24 @@ install_docker() {
     }>&2
     return 1
 }
+install_docker_compose() {
+    _SYS=$(uname)
+    if [ x$_SYS = x"Linux" ]; then
+        >&2 echo Installing docker-compose ...
+        sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o $USR_LOCAL_BIN/docker-compose
+        sudo chmod +x $USR_LOCAL_BIN/docker-compose
+        docker-compose version >/dev/null && return 0
+    fi
+    >&2 echo Install docker-compose failed. See https://docs.docker.com/compose/install/.
+    return 1
+}
 
 
 pre_check() {
     curl --version &>/dev/null
-    
+   ${PYTHON} -V &>/dev/null || { >&2 echo "Python not found. You might need to set '$PYTHON' manually."; return 1; }
     docker version &>/dev/null || install_docker
+    docker-compose version &>/dev/null || install_docker_compose    
     
 }
 
@@ -97,6 +110,7 @@ do_system_check() {
     elif [ $_CPU -lt $_SYS_REC_CPU ]; then
         _SYS_WARN=1
     fi
+
     if [ $_MEM -lt $_SYS_MIN_MEM ]; then
         _SYS_STOP=1
         if [ x$_SYS = x"Linux" ]; then
@@ -136,12 +150,30 @@ pre_check
 init_prefix
 do_system_check
 
-
 $CURL "https://raw.githubusercontent.com/Cocos-BCX/cocos-bcx-node-bin/master/fullnode/mainnet/$VERSION/genesis.json" -o $PREFIX/config/genesis.json
 $CURL "https://raw.githubusercontent.com/Cocos-BCX/cocos-bcx-node-bin/master/fullnode/mainnet/$VERSION/config.ini" -o $PREFIX/config/config.ini
 
+#
+# Build compose file
+#
 
-docker run -itd --restart=always --name witness -v $PREFIX/config:/root/witness/config \
-	-v $PREFIX/COCOS_BCX_DATABASE:/root/witness/COCOS_BCX_DATABASE \
-	-v $PREFIX/logs:/root/witness/logs -p 8049:8049 -p 8050:8050 \
-	 registry.cn-beijing.aliyuncs.com/qkyy/witness
+cat <<EOF >docker-compose.yml
+version: "2.2"
+
+services:
+  witness:
+    image: registry.cn-beijing.aliyuncs.com/qkyy/witness
+    container_name: witness
+    restart: unless-stopped
+    ports:
+      - "8049-8050:8049-8050"
+    volumes:
+      - $PREFIX/COCOS_BCX_DATABASE:/root/witness/COCOS_BCX_DATABASE
+      - $PREFIX/config:/root/witness/config
+      - $PREFIX/logs:/root/witness/logs
+    ulimits:
+      nofile: 51200
+EOF
+docker-compose pull
+docker-compose up -d
+
