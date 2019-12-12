@@ -15,11 +15,11 @@ export PATH=$PATH:$USR_LOCAL_BIN
 #
 # function
 #
-_SYS_MIN_CPU=4          # 4 cpu
+_SYS_MIN_CPU=2          # 4 cpu
 _SYS_REC_CPU=4          # 4 cpu
 _SYS_MIN_MEM=8          # 8G ram
 _SYS_REC_MEM=16         # 16G ram
-_SYS_MIN_STO=100        # 100G storage
+_SYS_MIN_STO=200        # 100G storage
 _SYS_REC_STO=1000       # 1T storage
 
 print_requirements() {
@@ -97,7 +97,6 @@ do_system_check() {
     elif [ $_CPU -lt $_SYS_REC_CPU ]; then
         _SYS_WARN=1
     fi
-
     if [ $_MEM -lt $_SYS_MIN_MEM ]; then
         _SYS_STOP=1
         if [ x$_SYS = x"Linux" ]; then
@@ -135,7 +134,7 @@ do_system_check() {
 
 pre_check
 init_prefix
-#do_system_check
+do_system_check
 
 
 $CURL "https://raw.githubusercontent.com/Cocos-BCX/cocos-bcx-node-bin/master/fullnode/mainnet/$VERSION/genesis.json" -o $PREFIX/config/genesis.json
