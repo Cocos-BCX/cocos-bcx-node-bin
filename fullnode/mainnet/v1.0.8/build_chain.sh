@@ -162,7 +162,7 @@ version: "2.2"
 
 services:
   witness:
-    image: registry.cn-beijing.aliyuncs.com/qkyy/witness
+    image: cocosbcx/cocos-mainnet:latest
     container_name: witness
     restart: unless-stopped
     ports:
