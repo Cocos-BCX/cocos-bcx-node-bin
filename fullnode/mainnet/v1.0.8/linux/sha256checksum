@@ -1,0 +1,6 @@
+root@ubuntu:/home/ck/shuangquan/node-singletest# ./witness_node --version
+Version: v1.0.8-b
+SHA: 3bb141e38329cd013febc982c5b06d4eb2b6c32f
+Timestamp: 7 days ago
+root@ubuntu:/home/ck/shuangquan/node-singletest# md5sum ./witness_node
+5b67d600a3dca49e565334f75e9f7ed9  ./witness_node

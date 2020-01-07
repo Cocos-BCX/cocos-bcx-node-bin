@@ -150,8 +150,8 @@ pre_check
 init_prefix
 do_system_check
 
-$CURL "https://raw.githubusercontent.com/Cocos-BCX/cocos-bcx-node-bin/master/fullnode/mainnet/$VERSION/genesis.json" -o $PREFIX/config/genesis.json
-$CURL "https://raw.githubusercontent.com/Cocos-BCX/cocos-bcx-node-bin/master/fullnode/mainnet/$VERSION/config.ini" -o $PREFIX/config/config.ini
+$CURL "https://raw.githubusercontent.com/Cocos-BCX/cocos-bcx-node-bin/master/fullnode/mainnet/$VERSION/config/genesis.json" -o $PREFIX/config/genesis.json
+$CURL "https://raw.githubusercontent.com/Cocos-BCX/cocos-bcx-node-bin/master/fullnode/mainnet/$VERSION/config/config.ini" -o $PREFIX/config/config.ini
 
 #
 # Build compose file
@@ -162,7 +162,7 @@ version: "2.2"
 
 services:
   witness:
-    image: registry.cn-beijing.aliyuncs.com/qkyy/witness
+    image: cocosbcx/cocos-mainnet:latest
     container_name: witness
     restart: unless-stopped
     ports:
