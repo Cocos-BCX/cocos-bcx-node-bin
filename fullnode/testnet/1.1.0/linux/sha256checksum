@@ -1,0 +1,9 @@
+root@ck-chain-test005:/mnt/new_witness/COCOS_BCX_DATABASE# ./witness_node --version
+1654513ms th_a       main.cpp:145                  create_new_config_fi ] Writing new config file at /mnt/new_witness/COCOS_BCX_DATABASE/COCOS_BCX_DATABASE/config.ini
+1654514ms th_a       main.cpp:107                  create_new_log_confi ] Writing new log config file at /mnt/new_witness/COCOS_BCX_DATABASE/COCOS_BCX_DATABASE/log_cfg.ini
+Version: v1.1.0
+SHA: f29f8c1a09a439d8b81e0ae61d03f566004ebf4d
+Timestamp: 5 days ago
+root@ck-chain-test005:/mnt/new_witness/COCOS_BCX_DATABASE# md5sum witness_node
+fa3925b21c4383ca287080f6286a2791  witness_node
+
