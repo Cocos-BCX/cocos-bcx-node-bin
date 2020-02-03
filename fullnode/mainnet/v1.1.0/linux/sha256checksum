@@ -1,1 +1,8 @@
-
+root@ubuntu:./witness_node  --version
+Version: v1.1.0
+SHA: aac3ec418ba33cb263a3ce45de96f143ed68a197
+Timestamp: 19 days ago
+root@ubuntu:./cli_wallet  --version
+Version: v1.1.0
+SHA: aac3ec418ba33cb263a3ce45de96f143ed68a197
+Timestamp: 19 days ago
