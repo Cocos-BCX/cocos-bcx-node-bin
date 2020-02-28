@@ -130,13 +130,6 @@ do_system_check() {
         _SYS_WARN=1
     fi
 
-    if [ $_SYS_STOP -eq 1 ]; then
-        #print_requirements
-        #print_minimal_fail
-    fi
-    if [ $_SYS_WARN -eq 1 ]; then
-        #print_requirements
-    fi
 }
 
 
