@@ -148,7 +148,6 @@ do_system_check() {
 
 pre_check
 init_prefix
-#do_system_check
 
 $CURL "https://raw.githubusercontent.com/Cocos-BCX/cocos-bcx-node-bin/master/fullnode/mainnet/$VERSION/config/genesis.json" -o $PREFIX/config/genesis.json
 $CURL "https://raw.githubusercontent.com/Cocos-BCX/cocos-bcx-node-bin/master/fullnode/mainnet/$VERSION/config/config.ini" -o $PREFIX/config/config.ini
