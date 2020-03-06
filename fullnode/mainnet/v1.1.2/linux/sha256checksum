@@ -1,0 +1,8 @@
+root@ubuntu:/home/master-mainnet-merge/programs/witness_node# ./witness_node  --version
+2596234ms th_a       main.cpp:145                  create_new_config_fi ] Writing new config file at /home/ck/shuangquan/github/master-mainnet-merge/programs/witness_node/COCOS_BCX_DATABASE/config.ini
+2596235ms th_a       main.cpp:107                  create_new_log_confi ] Writing new log config file at /home/ck/shuangquan/github/master-mainnet-merge/programs/witness_node/COCOS_BCX_DATABASE/log_cfg.ini
+Version: v1.1.2_release-73-g12ce857
+SHA: 12ce857a48701145e13861594690c3691cb9e1c3
+Timestamp: 19 hours ago
+root@ubuntu:/home/master-mainnet-merge/programs/witness_node# md5sum ./witness_node 
+35ce0ffa60e49c3418e4876609cbb0c3  ./witness_node
