@@ -1,0 +1,6 @@
+root@ubuntu:/home/ck/shuangquan/github/master-mainnet-merge/programs/cli_wallet# ./cli_wallet --version
+Version: v1.1.3.1_test
+SHA: 10265cfc210d2ec5559a53124a93e68b889959d0
+Timestamp: 8 days ago
+root@ubuntu:/home/ck/shuangquan/github/master-mainnet-merge/programs/cli_wallet# md5sum cli_wallet
+66d8a816e4a34917c3cb8b20f55b9341  cli_wallet
