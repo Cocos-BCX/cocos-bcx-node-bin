@@ -1,4 +1,4 @@
-[English](https://github.com/Cocos-BCX/cocos-bcx-node-bin/tree/master/fullnode/testnet/README.md "English")
+[English](https://github.com/Cocos-BCX/cocos-bcx-node-bin/tree/master/fullnode/README.md "English")
 
 # 1. 搭建同步区块节点
 
