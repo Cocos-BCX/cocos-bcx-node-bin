@@ -1,4 +1,4 @@
-[English](https://github.com/Cocos-BCX/cocos-bcx-node-bin/blob/master/cli/testnet/README.md "English")
+[English](https://github.com/Cocos-BCX/cocos-bcx-node-bin/blob/master/cli/README.md "English")
 
 # 1. RPC命令行钱包终端使用
     注：前置条件是链已正确搭建，测试无误，且获取到节点的RPC地址。
