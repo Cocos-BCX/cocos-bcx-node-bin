@@ -1,4 +1,4 @@
-[中文](https://github.com/Cocos-BCX/cocos-bcx-node-bin/tree/master/fullnode/testnet/README_cn.md "中文")
+[中文](https://github.com/Cocos-BCX/cocos-bcx-node-bin/tree/master/fullnode/README_cn.md "中文")
 
 # 1. Set up block syncing node
 
@@ -118,5 +118,5 @@
 ```
 
 ## Note:
-* You can also execute the script directly by setting up a regular block node: [setup_node.sh](https://github.com/Cocos-BCX/cocos-bcx-node-bin.git)
+* You can also execute the script directly by setting up a regular block node: [setup_node.sh](https://github.com/Cocos-BCX/cocos-bcx-node-bin/blob/master/fullnode/testnet/v0.7.17/config/setup_node.sh)
 
