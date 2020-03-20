@@ -1,0 +1,8 @@
+root@ubuntu:/home/ck# ./witness_node --version
+1601921ms th_a       main.cpp:145                  create_new_config_fi ] Writing new config file at /home/ck/COCOS_BCX_DATABASE/config.ini
+1601927ms th_a       main.cpp:107                  create_new_log_confi ] Writing new log config file at /home/ck/COCOS_BCX_DATABASE/log_cfg.ini
+Version: v1.0.8-b
+SHA: 3bb141e38329cd013febc982c5b06d4eb2b6c32f
+Timestamp: 15 weeks ago
+root@ubuntu:/home/ck# md5sum ./witness_node 
+5b67d600a3dca49e565334f75e9f7ed9  ./witness_node
