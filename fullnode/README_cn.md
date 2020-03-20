@@ -16,7 +16,7 @@
 ## 1.3.	获取可执行文件
 * 直接通过项目方获取或者下载项目方发布的节点文件witness_node以及命令行终端文件cli_wallet. [下载地址](https://github.com/Cocos-BCX/cocos-bcx-node-bin.git)
 * 获取创世区块配置文件[genesis.json](https://github.com/Cocos-BCX/cocos-bcx-node-bin.git)
-* genesis.json和config.ini在每个版本下的config路径下都有。[以v0.7.17版本为例](https://github.com/Cocos-BCX/cocos-bcx-node-bin/tree/master/fullnode/testnet/0.7.17/config)。
+* genesis.json和config.ini在每个版本下的config路径下都有。[以v0.7.17版本为例](https://github.com/Cocos-BCX/cocos-bcx-node-bin/tree/master/fullnode/testnet/v0.7.17/config)。
 
 ## 1.4. config.ini配置
 * 部分参数修改说明如下:
