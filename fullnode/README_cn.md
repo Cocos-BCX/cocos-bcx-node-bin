@@ -119,4 +119,4 @@
 ```
 
 ## 附:
-* 搭建普通出块节点也可以直接执行脚本: [setup_node.sh](https://github.com/Cocos-BCX/cocos-bcx-node-bin.git)
+* 搭建普通出块节点也可以直接执行脚本: [setup_node.sh](https://github.com/Cocos-BCX/cocos-bcx-node-bin/blob/master/fullnode/testnet/v0.7.17/config/setup_node.sh)
