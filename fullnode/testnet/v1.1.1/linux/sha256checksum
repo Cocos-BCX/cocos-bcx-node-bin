@@ -1,0 +1,6 @@
+root@ubuntu:/home/witness_node# ./witness_node --version
+Version: v1.1.1_release
+SHA: 446c56c8fc58bb929e737a94a45704fc9691a170
+Timestamp: 43 days ago
+root@ubuntu:/home/witness_node# md5sum witness_node
+e9cb56c4fba13622e1381639948dbb2f  witness_node
