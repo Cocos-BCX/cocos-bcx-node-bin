@@ -1,4 +1,4 @@
-[中文](https://github.com/Cocos-BCX/cocos-bcx-node-bin/blob/master/cli/testnet/README_cn.md "中文")
+[中文](https://github.com/Cocos-BCX/cocos-bcx-node-bin/blob/master/cli/README_cn.md "中文")
 
 # 1. RPC Command Line Wallet Terminal
     Note: The prerequisite is that the blockchain has been correctly built without any error after testing, and the RPC address of the node is obtained.
