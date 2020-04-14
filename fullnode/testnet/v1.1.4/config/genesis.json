@@ -1,0 +1,472 @@
+{
+  "initial_timestamp": "2019-12-02T00:00:00",
+  "max_core_supply": "10000000000000000",
+  "initial_parameters": {
+    "current_fees": {
+      "parameters": [[
+          0,{ 
+            "fee": 10000,
+            "price_per_kbyte": 1000
+          }
+        ],[
+          1,{ 
+            "fee": 1000
+          }
+        ],[
+          2,{ 
+            "fee": 0
+          }
+        ],[
+          3,{ 
+            "fee": 5000
+          }
+        ],[
+          4,{} 
+        ],[
+          5,{  
+            "basic_fee": 10000,  
+            "premium_fee": 500000,  
+            "price_per_kbyte": 1000
+          }
+        ],[
+          6,{   
+            "fee": 500,
+            "price_per_kbyte": 100
+          }
+        ],[
+          7,{ 
+            "membership_annual_fee": 10000,  
+            "membership_lifetime_fee": 1000000  
+          }
+        ],[
+          8,{  
+            "symbol3": "500000",  
+            "symbol4": "300000",  
+            "long_symbol": 100000,  
+            "price_per_kbyte": 10000
+          }
+        ],[
+          9,{ 
+            "fee": 50000,
+            "price_per_kbyte": 10000
+          }
+        ],[
+          10,{  
+            "fee": 20000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          11,{  
+            "fee": 500000
+          }
+        ],[
+          12,{ 
+            "fee": 500000
+          }
+        ],[
+          13,{ 
+            "fee": 20000,
+            "price_per_kbyte": 10000
+          }
+        ],[
+          14,{  
+            "fee": 20000
+          }
+        ],[
+          15,{  
+            "fee": 10000
+          }
+        ],[
+          16,{  
+            "fee": 500000
+          }
+        ],[
+          17,{  
+            "fee": 100000
+          }
+        ],[
+          18,{
+            "fee": 100000000
+          }
+        ],[
+          19,{ 
+            "fee": 20000000
+          }
+        ],[
+          20,{  
+            "fee": 2000000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          21,{  
+            "fee": 100000,
+            "price_per_kbyte": 10
+          }
+        ],[  
+          22,{ 
+            "fee": 100000
+          }
+        ],[
+          23,{ 
+            "fee": 100000000
+          }
+        ],[
+          24,{ 
+            "fee": 2000000
+          }
+        ],[
+          25,{ 
+            "fee": 100000
+          }
+        ],[
+          26,{ 
+            "fee": 100000
+          }
+        ],[
+          27,{
+            "fee": 100000
+          }
+        ],[
+          28,{ 
+            "fee": 100000
+          }
+        ],[  
+          29,{}  
+        ],[
+          30,{}  
+        ],[
+          31,{  
+            "fee": 2000000
+          }
+        ],[
+          32,{ 
+            "fee": 2000000
+          }
+        ],[
+          33,{}
+        ],[
+          34,{   
+            "fee": 100000,
+            "price_per_kbyte": 100000
+          }
+        ],[
+          35,{  
+            "fee": 20000,
+            "price_per_kbyte": 10000,
+            "price_per_millisecond": 1000
+          }
+        ],[
+          36,{ 
+            "fee": 200000,
+            "price_per_kbyte": 1000000
+          }
+        ],[
+          37,{  
+            "fee": 100000
+          }
+        ],[
+          38,{ 
+            "fee": 100000
+          }
+        ],[
+          39,{  
+            "fee": 100000
+          }
+        ],[ 
+          40,{  
+            "fee": 10000
+          }
+        ],[
+          41,{
+            "fee": 10000
+          }
+        ],[
+          42,{  
+            "fee": 10000
+          }
+        ],[
+          43,{ 
+            "fee": 10000
+          }
+        ],[
+          44,{
+            "fee": 0
+          }
+        ],[
+          45,{ 
+            "fee": 0
+          }
+        ],[
+          46,{  
+            "fee": 100000,
+            "price_per_kbyte": 1000000
+          }
+        ],[
+          47,{  
+            "price_per_related_account": 100000
+          }
+        ],[
+          48,{  
+            "fee": 100000,
+            "price_per_kbyte": 1000000
+          }
+        ],[
+          49,{  
+            "fee": 100000
+          }
+        ],[
+          50,{ 
+            "fee": 100000,
+            "price_per_kbyte": 100000
+          }
+        ],[
+          51,{ 
+            "fee": 2000000,
+            "price_per_kbyte": 10
+          }
+        ],[
+          52,{
+            "fee": 2000000
+          }
+        ],[
+          53,{
+            "fee": 2000000
+          }
+        ],[
+          54,{ 
+            "fee": 10000
+          }
+        ],[
+          55,{ 
+            "fee": 100000
+          }
+        ]
+      ],
+      "scale": 10000,
+      "maximun_handling_fee": 10000000
+    },
+    "block_interval": 2,
+    "maintenance_interval": 86400,
+    "maintenance_skip_slots": 3,
+    "committee_proposal_review_period": 1800,
+    "maximum_block_size": 2000000,
+    "maximum_time_until_expiration": 86400,
+    "maximum_proposal_lifetime": 2419200,
+    "maximum_asset_feed_publishers": 10,
+    "witness_number_of_election": 11,
+    "committee_number_of_election": 11,
+    "maximum_authority_membership": 10,
+    "candidate_award_budget":300000000000,
+    "committee_percent_of_candidate_award":5500,
+    "unsuccessful_candidates_percent":5000,
+    "cashback_gas_period_seconds": 86400,
+    "cashback_vb_period_seconds" : 86400,
+    "cashback_vote_period_seconds" :259200,
+    "witness_pay_per_block": 10000000,
+    "worker_budget_per_day": 100000000,
+    "accounts_per_fee_scale": 50000,
+    "account_fee_scale_bitshifts": 4,
+    "max_authority_depth": 2,
+    "maximum_run_time_ratio": 7500,
+    "maximum_nh_asset_order_expiration": 1209600,
+    "assigned_task_life_cycle": 300,
+    "crontab_suspend_threshold": 3,
+    "crontab_suspend_expiration": 2592000,
+    "witness_candidate_freeze":5000000000000,
+    "committee_candidate_freeze":5000000000000,
+    "extensions": ["{\"vesting_balance_withdraw_fee\":\"10000\"}"]
+  },
+  "initial_accounts": [{
+      "name": "init0",
+      "owner_key": "COCOS8hxjGaAwkNHewgQqg6ERLA7L4J6wkzuhhLRVbKKuJZUYM3dfuS",
+      "active_key": "COCOS8hxjGaAwkNHewgQqg6ERLA7L4J6wkzuhhLRVbKKuJZUYM3dfuS",
+      "is_lifetime_member": true
+    },{
+      "name": "init1",
+      "owner_key": "COCOS5TrJztVAY5F9aWDw5KtDHfdrffQn7F3sjgbL8YyssiKhVCLNf7",
+      "active_key": "COCOS5TrJztVAY5F9aWDw5KtDHfdrffQn7F3sjgbL8YyssiKhVCLNf7",
+      "is_lifetime_member": true
+    },{
+      "name": "init2",
+      "owner_key": "COCOS8hjpaYLn6RxfQEg61en7fEMy9beYsaWZ4Vm6jnqujQjJ5PQSGo",
+      "active_key": "COCOS8hjpaYLn6RxfQEg61en7fEMy9beYsaWZ4Vm6jnqujQjJ5PQSGo",
+      "is_lifetime_member": true
+    },{
+      "name": "init3",
+      "owner_key": "COCOS5dLtguN6A12QBuV3dmh3YCLg3adkKmY3m2gV7hm9Cw9jtyGd3Y",
+      "active_key": "COCOS5dLtguN6A12QBuV3dmh3YCLg3adkKmY3m2gV7hm9Cw9jtyGd3Y",
+      "is_lifetime_member": true
+    },{
+      "name": "init4",
+      "owner_key": "COCOS7nEYNaXP9P84LQA2kHArvDBTfQ8RizhYd8em3T5zfXBZj29h4i",
+      "active_key": "COCOS7nEYNaXP9P84LQA2kHArvDBTfQ8RizhYd8em3T5zfXBZj29h4i",
+      "is_lifetime_member": true
+    },{
+      "name": "init5",
+      "owner_key": "COCOS8LQSvCgZvwW44iJuCBkVmpR3uUh6J2VFkBJScA3vJq3gXTLCLr",
+      "active_key": "COCOS8LQSvCgZvwW44iJuCBkVmpR3uUh6J2VFkBJScA3vJq3gXTLCLr",
+      "is_lifetime_member": true
+    },{
+      "name": "init6",
+      "owner_key": "COCOS6Y5gjJG6YageUeVeoHMMLpESXFi3LdhHWB7dZsKfWQ8giEWN1z",
+      "active_key": "COCOS6Y5gjJG6YageUeVeoHMMLpESXFi3LdhHWB7dZsKfWQ8giEWN1z",
+      "is_lifetime_member": true
+    },{
+      "name": "init7",
+      "owner_key": "COCOS8aJKupmQ4XjWyAbsn58wLb2oLHfEDGMFtd7dDbFtxFpBzMGUda",
+      "active_key": "COCOS8aJKupmQ4XjWyAbsn58wLb2oLHfEDGMFtd7dDbFtxFpBzMGUda",
+      "is_lifetime_member": true
+    },{
+      "name": "init8",
+      "owner_key": "COCOS5fW5NuvGjaVQTGwcJLwogxheq2KMjm3y5ccAShJqQnB3gNkGbL",
+      "active_key": "COCOS5fW5NuvGjaVQTGwcJLwogxheq2KMjm3y5ccAShJqQnB3gNkGbL",
+      "is_lifetime_member": true
+    },{
+      "name": "init9",
+      "owner_key": "COCOS5rYpiyVtxuX5PDbxHrPEsjVd6Ucz5fWJTdhvAxoPtZGSxvkE82",
+      "active_key": "COCOS5rYpiyVtxuX5PDbxHrPEsjVd6Ucz5fWJTdhvAxoPtZGSxvkE82",
+      "is_lifetime_member": true
+    },{
+      "name": "init10",
+      "owner_key": "COCOS6e4j3DaruANMUNsK8PMit8Sp3kA1Dw3EhJb3mpCHeZb7nTgUnP",
+      "active_key": "COCOS6e4j3DaruANMUNsK8PMit8Sp3kA1Dw3EhJb3mpCHeZb7nTgUnP",
+      "is_lifetime_member": true
+    },{
+      "name": "nicotest",
+      "owner_key": "COCOS56a5dTnfGpuPoWACnYj65dahcXMpTrNQkV3hHWCFkLxMF5mXpx",
+      "active_key": "COCOS56a5dTnfGpuPoWACnYj65dahcXMpTrNQkV3hHWCFkLxMF5mXpx",
+      "is_lifetime_member": false
+    }
+  ],
+  "initial_assets": [],
+  "initial_address_balances": [{
+      "owner": "COCOS48G3hk62q4rykYTTaSFiMLEFrAGWwNdUk",
+      "asset_symbol": "COCOS",
+      "amount": "6890000000000000"
+    }
+  ],
+  "initial_account_balances":[{
+      "owner_name":"init0",
+      "asset_symbol":"COCOS",
+      "amount":10000000000000
+  },
+  {
+    "owner_name":"init1",
+    "asset_symbol":"COCOS",
+    "amount":10000000000000
+  },
+  {
+    "owner_name":"init2",
+    "asset_symbol":"COCOS",
+    "amount":10000000000000
+  },
+  {
+    "owner_name":"init3",
+    "asset_symbol":"COCOS",
+    "amount":10000000000000
+  },
+  {
+    "owner_name":"init4",
+    "asset_symbol":"COCOS",
+    "amount":10000000000000
+  },
+  {
+    "owner_name":"init5",
+    "asset_symbol":"COCOS",
+    "amount":10000000000000
+  },
+  {
+    "owner_name":"init6",
+    "asset_symbol":"COCOS",
+    "amount":10000000000000
+  },
+  {
+    "owner_name":"init7",
+    "asset_symbol":"COCOS",
+    "amount":10000000000000
+  },
+  {
+    "owner_name":"init8",
+    "asset_symbol":"COCOS",
+    "amount":10000000000000
+  },
+  {
+    "owner_name":"init9",
+    "asset_symbol":"COCOS",
+    "amount":10000000000000
+  },
+  {
+    "owner_name":"init10",
+    "asset_symbol":"COCOS",
+    "amount":10000000000000
+  }
+],
+  "initial_vesting_balances": [],
+  "initial_active_witnesses": 11,
+  "initial_witness_candidates": [{
+      "owner_name": "init0",
+      "block_signing_key": "COCOS8hxjGaAwkNHewgQqg6ERLA7L4J6wkzuhhLRVbKKuJZUYM3dfuS"
+    },{
+      "owner_name": "init1",
+      "block_signing_key": "COCOS5TrJztVAY5F9aWDw5KtDHfdrffQn7F3sjgbL8YyssiKhVCLNf7"
+    },{
+      "owner_name": "init2",
+      "block_signing_key": "COCOS8hjpaYLn6RxfQEg61en7fEMy9beYsaWZ4Vm6jnqujQjJ5PQSGo"
+    },{
+      "owner_name": "init3",
+      "block_signing_key": "COCOS5dLtguN6A12QBuV3dmh3YCLg3adkKmY3m2gV7hm9Cw9jtyGd3Y"
+    },{
+      "owner_name": "init4",
+      "block_signing_key": "COCOS7nEYNaXP9P84LQA2kHArvDBTfQ8RizhYd8em3T5zfXBZj29h4i"
+    },{
+      "owner_name": "init5",
+      "block_signing_key": "COCOS8LQSvCgZvwW44iJuCBkVmpR3uUh6J2VFkBJScA3vJq3gXTLCLr"
+    },{
+      "owner_name": "init6",
+      "block_signing_key": "COCOS6Y5gjJG6YageUeVeoHMMLpESXFi3LdhHWB7dZsKfWQ8giEWN1z"
+    },{
+      "owner_name": "init7",
+      "block_signing_key": "COCOS8aJKupmQ4XjWyAbsn58wLb2oLHfEDGMFtd7dDbFtxFpBzMGUda"
+    },{
+      "owner_name": "init8",
+      "block_signing_key": "COCOS5fW5NuvGjaVQTGwcJLwogxheq2KMjm3y5ccAShJqQnB3gNkGbL"
+    },{
+      "owner_name": "init9",
+      "block_signing_key": "COCOS5rYpiyVtxuX5PDbxHrPEsjVd6Ucz5fWJTdhvAxoPtZGSxvkE82"
+    },{
+      "owner_name": "init10",
+      "block_signing_key": "COCOS6e4j3DaruANMUNsK8PMit8Sp3kA1Dw3EhJb3mpCHeZb7nTgUnP"
+    }
+  ],
+  "initial_committee_candidates": [{
+      "owner_name": "init0"
+    },{
+      "owner_name": "init1"
+    },{
+      "owner_name": "init2"
+    },{
+      "owner_name": "init3"
+    },{
+      "owner_name": "init4"
+    },{
+      "owner_name": "init5"
+    },{
+      "owner_name": "init6"
+    },{
+      "owner_name": "init7"
+    },{
+      "owner_name": "init8"
+    },{
+      "owner_name": "init9"
+    },{
+      "owner_name": "init10"
+    }
+  ],
+  "initial_contract_base": "local baseENV={ cjson=cjson,date=os.date,import_contract=import_contract,get_account_contract_data=get_account_contract_data,                             assert=assert, next=next, pairs=pairs, pcall=pcall, print=print, select=select, tonumber=tonumber, tostring=tostring, type=type,                            unpack=unpack, _VERSION=_VERSION, xpcall=xpcall, coroutine={ create=coroutine.create, resume=coroutine.resume, running=coroutine.running,                            status=coroutine.status, wrap=coroutine.wrap, yield=coroutine.yield }, string={ byte=string.byte, char=string.char, find=string.find,                            format=string.format, gmatch=string.gmatch, gsub=string.gsub, len=string.len, lower=string.lower,  match=string.match, rep=string.rep,                            reverse=string.reverse, sub=string.sub, upper=string.upper }, table={ insert=table.insert, maxn=table.maxn, remove=table.remove, sort=table.sort,                            concat=table.concat }, math={ abs=math.abs, acos=math.acos, asin=math.asin, atan=math.atan, atan2=math.atan2, ceil=math.ceil, cos=math.cos,                            cosh=math.cosh, deg=math.deg, exp=math.exp, floor=math.floor, fmod=math.fmod, frexp=math.frexp, huge=math.huge,  ldexp=math.ldexp, log=math.log,                            log10=math.log10, max=math.max, min=math.min, modf=math.modf, pi=math.pi, pow=math.pow, rad=math.rad,sin=math.sin, sinh=math.sinh, sqrt=math.sqrt,tan=math.tan, tanh=math.tanh }  } return baseENV",
+  "initial_chain_id": "401d46c4f994b18103febbd72c32a2e6b564f9fcb52f9e7250901f9dca73d087",
+  "immutable_parameters": {
+    "min_committee_member_count": 11,
+    "min_witness_count": 11
+  }
+}
+
