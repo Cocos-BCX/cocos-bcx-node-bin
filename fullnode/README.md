@@ -120,3 +120,14 @@
 ## Note:
 * You can also execute the script directly by setting up a regular block node: [setup_node.sh](https://github.com/Cocos-BCX/cocos-bcx-node-bin/blob/master/fullnode/testnet/v0.7.17/config/setup_node.sh)
 
+### mainnet  
+Make sure the chain-id is:   ``` 6057d856c398875cac2650fe33caef3d5f6b403d184c5154abbff526ec1143c4   ```,    
+When you run: 
+  ``` ./witness_node --genesis-json genesis.json ```
+
+### testnet  
+
+Make sure the chain-id is:   ``` 1ae3653a3105800f5722c5bda2b55530d0e9e8654314e2f3dc6d2b010da641c5   ```,    
+When you run: 
+  ``` ./witness_node --genesis-json genesis.json ```
+
