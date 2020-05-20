@@ -1,0 +1,8 @@
+root@ubuntu:/bin# ./witness_node  --version
+2995880ms th_a       main.cpp:145                  create_new_config_fi ] Writing new config file at /home/ck/shuangquan/github/cocos-bcx-node-bin/fullnode/testnet/v1.1.6/linux/COCOS_BCX_DATABASE/config.ini
+2995881ms th_a       main.cpp:107                  create_new_log_confi ] Writing new log config file at /home/ck/shuangquan/github/cocos-bcx-node-bin/fullnode/testnet/v1.1.6/linux/COCOS_BCX_DATABASE/log_cfg.ini
+Version: v1.1.6_test
+SHA: 47520467dec3293e19218065639b69beebde9f05
+Timestamp: 21 days ago
+root@ubuntu:/bin# md5sum ./witness_node
+78a527f8534a0953fbfc846d81a593d3  ./witness_node
