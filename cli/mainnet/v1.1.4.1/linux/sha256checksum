@@ -1,0 +1,6 @@
+root@ubuntu:/home/ck# ./cli_wallet --version
+Version: v1.1.4.1_release
+SHA: 16664bfcc989a2c1d9c41d4b443696a05a89acf4
+Timestamp: 8 hours ago
+root@ubuntu:/home/ck# md5sum ./cli_wallet 
+0c906d2f3bdbbd48438d3b9aa40c3090  ./cli_wallet

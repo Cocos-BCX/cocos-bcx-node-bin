@@ -1,0 +1,6 @@
+root@ubuntu:/home/ck# ./witness_node --version
+Version: v1.1.4.1_release
+SHA: 16664bfcc989a2c1d9c41d4b443696a05a89acf4
+Timestamp: 8 hours ago
+root@ubuntu:/home/ck# md5sum ./witness_node 
+2a91d209a53cc6c075cd56834b577d5e  ./witness_node
